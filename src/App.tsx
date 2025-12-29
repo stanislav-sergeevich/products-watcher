@@ -50,7 +50,7 @@ function App() {
 		]);
 
 		const blob = new Blob([csv], {type: 'text/csv'});
-		saveAs(blob, 'products.csv');
+		saveAs(blob, 'tracked_prices.csv');
 	}
 
 	useEffect(() => {
